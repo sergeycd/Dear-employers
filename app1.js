@@ -6,3 +6,11 @@ if(vopros === 'да'){
 else{ vopros === 'нет'
    console.log(alert('Хорошего вам дня!'))
 };
+
+let x;
+
+x=`
+ <h1>Hello world!</h1>
+
+`
+document.body.innerHTML=x;
